@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+	<div class="swiper-container">
+	  	<div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		    	<img src="img/xmad_14977951300401_iFTLP.jpg" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="img/xmad_15015006094285_RCtmM.jpg" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="img/xmad_15027090424843_nteTN.jpg" alt="">
+		    </div>
+	  	</div>
+	  	<div class="swiper-pagination"></div>
+	  	<div class="swiper-button-prev"></div>
+    	<div class="swiper-button-next"></div>
+	</div>
+	
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 5000,//可选选项，自动滑动
+	pagination : '.swiper-pagination',
+	prevButton:'.swiper-button-prev',
+	nextButton:'.swiper-button-next',
+	effect : 'fade',
+	loop : true,
+
+})
+</script>
